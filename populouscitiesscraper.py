@@ -21,6 +21,6 @@ city_df = city_df.iloc[:, keep_cols]
 city_df.columns = city_df.columns.droplevel(level=1)
 
 #set save path
-path = r'C:\Users\user\Desktop\Sales Prospects\city_pop'
+path = r'C:\Users\user\PycharmProjects\placesscraper\city_pop'
 #save as csv
 city_df.to_csv(path, index=False)
