@@ -1,0 +1,4 @@
+# created by virtualenv automatically
+*
+# Ignore API key config file
+config.env
